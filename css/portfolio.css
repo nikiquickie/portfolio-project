@@ -1,4 +1,9 @@
-.portfolio_project{
+:root {
+  --primary-color: #d279b05f;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.body{
   background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
 }
 .about_me {
@@ -66,4 +71,35 @@ em {
   display: block;
   margin: 0 auto;
   width: 500px;
+}
+.about_page{
+  text-transform: uppercase;
+  padding-top: 100px;
+  text-align: center;
+}
+.about_text{
+  color: rgb(25, 165, 165);
+}
+.navigation-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.navigation-links a {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
