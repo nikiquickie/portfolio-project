@@ -103,3 +103,19 @@ em {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.contact a{
+  text-decoration: none;
+  font-size: 30px;
+  color:rgb(85, 163, 223);
+}
+img{
+  border-radius: 20px;
+}
+footer {
+  background-color: #ffffff;
+  color: #171717;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+}
